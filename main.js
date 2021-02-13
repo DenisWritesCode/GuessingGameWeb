@@ -16,12 +16,15 @@ function resetCounter() {
     // Reset tries to 6.
     tries = 6;
     form.guess.disabled = false; // Re-enables the input field.
+    info.style.setProperty('display', 'none');
 };
 
 function checkAnswer(ans) {
     if ( tries <= 1){ // Make sure user has only 6 chances.
+        info.style.setProperty('display', 'none');
         btn.innerText = 'You have lost the game';
         form.guess.disabled = true; // Disables input on the answer field.
+        return;
     }
 
     tries--;
