@@ -46,3 +46,13 @@ input{
     padding: 5px;
 
 }
+
+.reset {
+    padding: 10px 20px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+
+    font-family: cursive;
+    font-size: 1.2em;
+
+}
