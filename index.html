@@ -1,31 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
-    <title>Guessing Game</title>
-</head>
-<body>
-    <div class="container">
-        <header>
-            <h2>Guessing Game<span class="author">By Denis</span></h2>
-            <p class="text">
-                The computer will 'think' of a random number from 1 to 100, and ask the user to guess it. The computer will tell you if each guess is too high or too low. User wins if they can guess the number within six tries.
-            </p>
-        </header>
-        <hr>
-        <div class="content">
-            <p class="info user">Your guess was too <span class="text"> high</span></p>
-            <p class="attempts user">You have <span class="text"> 6 </span> attempts remaining.</p>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="main.css">
+        <title>Guessing Game</title>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h2>Guessing Game<span class="author">By Denis</span></h2>
+                <p class="text">
+                    The computer will 'think' of a random number from 1 to 100, and ask the user to guess it. The computer will tell you if each guess is too high or too low. User wins if they can guess the number within six tries.
+                </p>
+            </header>
+            <hr>
+            <div class="content">
+                <p class="info user">Your guess was too <span class="text"> high</span></p>
+                <p class="attempts user">You have <span class="text" id="tries"> 6 </span> attempts remaining.</p>
+                <button class="reset" onclick="resetCounter();">Reset</button>
 
-            <form action="">
-                <label for="guess" class="text">Enter number in the range 1 and 100: </label>
-                <input type="text" name="guess">
-            </form>
+                <form action="#" class="answer">
+                    <label for="guess" class="text">Enter number in the range 1 and 100: </label>
+                    <input type="text" name="guess">
+                </form>
+            </div>
         </div>
-    </div>
-    
-</body>
+
+        <script src="main.js"></script>
+        
+    </body>
 </html>
