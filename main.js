@@ -17,6 +17,7 @@ function resetCounter() {
     tries = 6;
     form.guess.disabled = false; // Re-enables the input field.
     info.style.setProperty('display', 'none');
+    btn.innerHTML = "You have <span class=\"text\" id=\"tries\"> 6 </span> attempts remaining.";
 };
 
 function checkAnswer(ans) {
