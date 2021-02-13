@@ -3,7 +3,7 @@ const btn = document.querySelector('.attempts');
 const tryHtml = document.querySelector('#tries');
 const info = document.querySelector('.info');
 
-let answer; // For storing the user enteres answer.
+let answer; // For storing the user entered answer.
 let tries = 6;
 const correctAns = Math.floor((Math.random() * 100) + 1); // Returns random number between 1 and 100.
 
