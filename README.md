@@ -1,6 +1,6 @@
 # GuessingGame Web
 
-The computer will 'think' of a random number from 1 to 100, and ask the user to guess it. The computer will tell you if each guess is too high or too low. User wins if they can guess the number within six tries.
+The computer will pick of a random number from 1 to 100, and ask the user to guess it. The computer will tell you if each guess is too high or too low. User wins if they can guess the number within six tries.
 
 
 ![The Final Image](Product.png)
